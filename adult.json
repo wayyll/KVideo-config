@@ -136,6 +136,14 @@
     "priority": 1
   },
   {
+    "id": "fanhao",
+    "name": "🔞番号资源",
+    "baseUrl": "http://fhapi9.com/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "lsbzy",
     "name": "🔞-老色逼-",
     "baseUrl": "https://apilsbzy1.com/api.php/provide/vod",
@@ -280,14 +288,6 @@
     "priority": 5
   },
   {
-    "id": "fanhao",
-    "name": "🔞番号资源",
-    "baseUrl": "http://fhapi9.com/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "hsck",
     "name": "🔞黄色仓库",
     "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
@@ -325,7 +325,7 @@
     "baseUrl": "https://jszyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 105,
+    "priority": 106,
     "_comment": "超时/宕机"
   },
   {
@@ -334,7 +334,7 @@
     "baseUrl": "https://caiji.dbzy5.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 112,
+    "priority": 113,
     "_comment": "接口解析错误"
   },
   {
@@ -343,7 +343,7 @@
     "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 113,
+    "priority": 114,
     "_comment": "接口解析错误"
   },
   {
@@ -352,7 +352,7 @@
     "baseUrl": "https://beiyong.slapibf.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 123,
+    "priority": 124,
     "_comment": "接口解析错误"
   },
   {
@@ -361,7 +361,7 @@
     "baseUrl": "https://api.bwzyz.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 125,
+    "priority": 126,
     "_comment": "接口解析错误"
   },
   {
@@ -443,7 +443,7 @@
     "group": "premium",
     "enabled": false,
     "priority": 130,
-    "_comment": "接口解析错误"
+    "_comment": "超时/宕机"
   },
   {
     "id": "msnii",
