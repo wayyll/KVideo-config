@@ -8,14 +8,6 @@
     "priority": 1
   },
   {
-    "id": "dytt",
-    "name": "🎬电影天堂",
-    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "maoyan",
     "name": "🎬猫眼资源",
     "baseUrl": "https://api.maoyanapi.top/api.php/provide/vod",
@@ -35,14 +27,6 @@
     "id": "360zy",
     "name": "🎬360 资源",
     "baseUrl": "https://360zyzz.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "feifan",
-    "name": "🎬非凡资源",
-    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 1
@@ -216,14 +200,6 @@
     "priority": 1
   },
   {
-    "id": "pgxdy",
-    "name": "🔞-黄AVZY",
-    "baseUrl": "https://www.pgxdy.com/api/json.php",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "iqiyi",
     "name": "🎬-爱奇艺-",
     "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
@@ -320,12 +296,39 @@
     "priority": 5
   },
   {
+    "id": "dytt",
+    "name": "🎬电影天堂",
+    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "feifan",
+    "name": "🎬非凡资源",
+    "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "pgxdy",
+    "name": "🔞-黄AVZY",
+    "baseUrl": "https://www.pgxdy.com/api/json.php",
+    "group": "premium",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
     "id": "naixiang",
     "name": "🔞奶香资源",
     "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 123,
+    "priority": 124,
     "_comment": "接口解析错误"
   },
   {
@@ -452,7 +455,7 @@
     "group": "premium",
     "enabled": false,
     "priority": 130,
-    "_comment": "搜索无结果"
+    "_comment": "超时/宕机"
   },
   {
     "id": "kxgav",
@@ -461,7 +464,7 @@
     "group": "premium",
     "enabled": false,
     "priority": 130,
-    "_comment": "搜索无结果"
+    "_comment": "超时/宕机"
   },
   {
     "id": "semao",
@@ -479,6 +482,6 @@
     "group": "premium",
     "enabled": false,
     "priority": 130,
-    "_comment": "接口解析错误"
+    "_comment": "超时/宕机"
   }
 ]
